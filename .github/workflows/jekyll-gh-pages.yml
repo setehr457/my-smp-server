@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alec SMP</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #0d1b2a; /* Темно-синий фон */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #e0e1dd;
+            margin-bottom: 30px;
+        }
+        .btn-support {
+            display: inline-block;
+            background-color: #00b4d8; /* Цвет кнопки */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .btn-support:hover {
+            background-color: #0077b6; /* Цвет кнопки при наведении */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Alec SMP</h1>
+        <p>Привет, друг!</p>
+        <a href="#" class="btn-support">Написать в поддержку</a>
+    </div>
+
+</body>
+</html>
